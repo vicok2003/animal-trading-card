@@ -1,0 +1,91 @@
+/* Page is responsive, try minimizing from your desktop */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    line-height: 1.6em;
+}
+
+img{
+    height: 250px;
+    width: 450px;
+    margin-top: 12px;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.container{
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 480px;
+    width: 500px;
+    margin: auto;
+    overflow: auto;
+}
+
+h2{
+    margin:10.5px;
+    text-align: center;
+}
+
+.container article{
+    border:2px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* This footer grid runs reponsively */
+.page-footer{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #000;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: #fff;
+  padding: 16px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.page-footer a{
+    color: #fff;
+}
+.page-footer a:hover{
+    color: orange;
+}
+
+.page-footer img{
+    width: 40%;
+    height: 40%;
+}
+
+.page-footer p{
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    gap: ;
+}
+
+.logos img{
+    height: 50%;
+    weight: 50%;
+    
+}
